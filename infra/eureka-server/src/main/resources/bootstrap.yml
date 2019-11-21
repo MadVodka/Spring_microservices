@@ -3,6 +3,7 @@ spring:
     name: eureka-service-registry
   cloud:
     config:
+      name: eureka-service-registry
       uri: http://${CONFIG_HOST:localhost}:${CONFIG_PORT:8888}
       failFast: true
 
