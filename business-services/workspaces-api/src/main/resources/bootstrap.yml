@@ -3,5 +3,17 @@ spring:
     name: workspaces-api
   cloud:
     config:
+      name: workspaces-api
       uri: http://${CONFIG_HOST:localhost}:8888
       failFast: true
+
+management:
+  security:
+    enabled: false
+
+#server.port: 9090
+#
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8282/eureka/
