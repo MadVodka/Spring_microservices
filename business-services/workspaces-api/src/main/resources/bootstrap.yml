@@ -7,10 +7,6 @@ spring:
       uri: http://${CONFIG_HOST:localhost}:8888
       failFast: true
 
-management:
-  security:
-    enabled: false
-
 #server.port: 9090
 #
 #eureka:
