@@ -3,10 +3,10 @@ spring:
     config:
       server:
         git:
-          uri: file:///D:/Tasks/Spring_cloud_task/application-config
+          uri: file:///C:/Users/Ivan_Vatlin/Desktop/config
 
-  profiles:
-     active: native
+#  profiles:
+#     active: native
 
 server:
   port: ${CONFIG_PORT:8888}
