@@ -7,8 +7,5 @@ spring:
           searchPaths: configs
           default-label: dev
 
-#  profiles:
-#     active: native
-
 server:
   port: ${CONFIG_PORT:8888}
