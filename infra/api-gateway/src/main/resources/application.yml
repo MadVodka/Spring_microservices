@@ -8,5 +8,9 @@ endpoints:
 
 zuul:
   routes:
-    workspaces-api: /workspaces/**
-    employees-api: /employees/**
+    workspaces:
+      path: /workspaces-service/**
+      serviceId: workspaces-api
+    employees:
+      path: /employees-service/**
+      serviceId: employees-api
