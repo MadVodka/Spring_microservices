@@ -3,7 +3,9 @@ spring:
     config:
       server:
         git:
-          uri: file:///C:/Users/Ivan_Vatlin/Desktop/config
+          uri: https://github.com/MadVodka/Spring_microservices
+          searchPaths: configs
+          default-label: dev
 
 #  profiles:
 #     active: native
