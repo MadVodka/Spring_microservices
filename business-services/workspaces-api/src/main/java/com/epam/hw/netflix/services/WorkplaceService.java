@@ -7,9 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-import static com.epam.hw.netflix.domain.OSFamily.LINUX;
-import static com.epam.hw.netflix.domain.OSFamily.OSX;
-import static com.epam.hw.netflix.domain.OSFamily.WINDOWS;
+import static com.epam.hw.netflix.domain.OSFamily.*;
 import static com.google.common.collect.Lists.newArrayList;
 import static java.lang.String.format;
 import static java.util.UUID.randomUUID;
